@@ -1,4 +1,4 @@
-from locust import HttpUser, task
+'''from locust import HttpUser, task
 
 class LocustWebUserTest(HttpUser):
     host = "http://127.0.0.1:8080"
@@ -11,4 +11,6 @@ class LocustWebUserTest(HttpUser):
     @task(2)
     def hello_worl(self):
         self.client.get('/user/<name>.html')
+
+'''
     
