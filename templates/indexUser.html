@@ -1,0 +1,19 @@
+{% extends 'test.html' %}
+
+{% block content %}
+
+<h1>Users</h1>
+
+<p>Click any user name.</p>
+
+<!-- pairs is a list that must be sent here by a route function
+
+     The list will contain pairs: a user's id, and a
+     user's name -->
+    <ul>
+    {% for pair in pairs %}
+        <li><a href="{{ url_for( 'users', name=pair[0] ) }}">{{ pair[1] }} : {{pair[0]}}</a></li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}
