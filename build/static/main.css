@@ -8,7 +8,7 @@ html {
 body {
     font-family: 'Verdana', sans-serif;
     color: #333;
-    background-color: #eee307;
+    background-color: orange;
     margin: 0;
 }
 
@@ -16,7 +16,7 @@ container {
     margin: 2em auto;
     max-width: 740px;
     padding: 2rem 4rem;
-    background: #fff;
+    background-color: #fff;
     overflow: auto;
 }
 h1 {
